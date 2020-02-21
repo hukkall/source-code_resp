@@ -108,3 +108,9 @@ search:
 sidebar-avatar: img/avatar.jpg
 post_style:
   indent: default
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+nofollow:
+    enable: true
