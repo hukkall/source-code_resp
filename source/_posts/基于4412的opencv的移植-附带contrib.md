@@ -33,7 +33,7 @@ date: 2020-02-20 19:55:33
 ​		首先下载好我们需要使用到的各个文件，他们的下载链接如下所示：
 
 ```
-arm-2013.05-24-arm-none-linux-gnueabi		链接：arm-2013.05-24-arm-none-linux-gnueabi
+arm-2013.05-24-arm-none-linux-gnueabi		链接：http://pan.baidu.com/s/1i3gNttF
 opencv_3.4.9	链接：https://github.com/opencv/opencv/archive/3.4.9.tar.gz
 opencv_contrib_3.4.9 链接：https://github.com/opencv/opencv_contrib/archive/3.4.9.tar.gz
 ```

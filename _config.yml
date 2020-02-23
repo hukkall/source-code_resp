@@ -120,4 +120,4 @@ abbrlink:
     rep: hex     #进制： dec(default) and hex
 comment:
    type: disqus
-   script: 'dadala.disqus.com/embed.js'
+   script: 'https://dadala.disqus.com/embed.js'
