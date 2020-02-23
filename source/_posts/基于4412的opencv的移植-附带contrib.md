@@ -1,10 +1,11 @@
 ---
 title: 基于4412的opencv的移植(附带contrib)
-date: 2020-02-20 19:55:33
 tags:
-	- 嵌入式
-	- 软件移植
+  - 嵌入式
+  - 软件移植
 typora-root-url: ./
+abbrlink: 42ae8816
+date: 2020-02-20 19:55:33
 ---
 
 #### 平台
