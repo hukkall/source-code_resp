@@ -3,20 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: A_Blog
-SEOTitle: FouRod
-subtitle: doRuoF
-description: 'C/C++/C#'
+title: FouRod
+subtitle: ''
+description: ''
 keywords:
 author: AaJal
-language: zh
+language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://dadala.xyz/
+url: http://yoursite.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: p/:abbrlink.html 
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -48,7 +47,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
@@ -90,34 +89,22 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+abbrlink:
+  alg: crc16 #support crc16(default) and crc32
+  rep: hex    #support dec(default) and hex
+
+
+
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-aircloud
-
+theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: ssh://git@github.com/hukkall/hukkall.github.io.git
-  branch: master
-search:
-  path: search.json
-  field: post
-sidebar-avatar: img/avatar.jpg
-post_style:
-  indent: default
+  type: ''
 sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
-nofollow:
-    enable: true
-    permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink
-abbrlink:
-    alg: crc32   #算法： crc16(default) and crc32
-    rep: hex     #进制： dec(default) and hex
-comment:
-   type: disqus
-   script: 'https://dadala.disqus.com/embed.js'
