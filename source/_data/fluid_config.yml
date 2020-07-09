@@ -28,7 +28,7 @@ highlight: # 代码高亮
 fun_features: # 一些好玩的功能
   typing: # 为 subtitle 添加打字机效果
     enable: true
-    typeSpeed: 70  # 打印速度，数字越大越慢
+    typeSpeed: 60  # 打印速度，数字越大越慢
     cursorChar: "_" # 游标字符
     loop: false # 是否循环播放效果
   anchorjs: # 为文章内容中的标题添加锚图标
@@ -36,7 +36,7 @@ fun_features: # 一些好玩的功能
     element: h1,h2,h3,h4,h5,h6
     placement: right # icon放置的位置： left | right
     visible: hover # 默认悬浮显示，可选：hover（鼠标在元素上悬浮时显示） | always（一直显示） | touch（移动端触摸显示）
-    icon: "" # 可选：§ | # | ❡ 等，留空则为默认效果
+    icon: "§" # 可选：§ | # | ❡ 等，留空则为默认效果
   mouse_click:  # 鼠标点击动效
     enable: false
     style: values # 目前设置两个值：values（价值观词汇） | love（爱心）
@@ -166,7 +166,7 @@ index:
     enable: true  # 为 false 则不显示任何内容
     text: doRuoF  # 为空则按 hexo config.subtitle 显示
   auto_excerpt:
-    enable: false
+    enable: true
   post_url_target: _blank  # available: _blank | _self
   post_meta: # 是否显示文章信息（时间、分类、标签）
     date: true

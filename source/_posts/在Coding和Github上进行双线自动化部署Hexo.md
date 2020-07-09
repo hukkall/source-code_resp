@@ -7,7 +7,12 @@ tags:
 	- 没有用的知识
 	- 自动化部署
 typora-root-url: ./
+index_img: https://rmt.dogedoge.com/fetch/~/source/unsplash/photo-1468927201227-35e86293a0c8
 ---
+
+如何在国内和国外自动化搭建静态博客
+
+<!-- more -->
 
 ### 起因
 
