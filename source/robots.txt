@@ -9,5 +9,5 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: https://dadala.xyz//sitemap.xml
+Sitemap: https://dadala.xyz/sitemap.xml
 Sitemap: https://dadala.xyz/baidusitemap.xml
